@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Web</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+    
+    <header>
+        <div class="logo">Mi Web</div>
+    </header>
+
+    <!-- Fondo Noche -->
+    <div class="container">
+        <div class="section black-section" onclick="window.location.href='./ESI/index.html'">
+             <div class="content">
+              <h1 class="mini-title">ESI</h1>
+              <p class="description">Hablaremos sobre lo que es ESI y de lo que trata.</p>
+             </div>
+            
+               <div class="noche">
+                 <div class="cometa"></div>
+                 <div class="cometa"></div>
+                 <div class="cometa"></div>
+                 <div class="cometa"></div>
+                 <div class="cometa"></div>
+                 <div class="cometa"></div>
+                 <div class="cometa"></div>
+                 <div class="cometa"></div>
+                 <div class="cometa"></div>
+                 <div class="cometa"></div>
+                 <div class="cometa"></div>
+                 <div class="cometa"></div>
+                 <div class="cometa"></div>
+                 <div class="cometa"></div>
+                 <div class="cometa"></div>
+                 <div class="cometa"></div>
+                 <div class="cometa"></div>
+                 <div class="cometa"></div>
+                 <div class="cometa"></div>
+                 <div class="cometa"></div>
+               </div>
+
+        </div>
+
+        <!-- Mio -->
+        <div class="section red-section" onclick="window.location.href='./MiT/inicio.html'">
+          <div class="content">
+            <img src="./IMG/faaa.png" id="motito">
+            <h1 class="mini-title">Mi tema</h1>
+            <p class="description">¿Qué tema me gustaría abarcar?</p>
+          </div>
+        </div>
+
+        <!-- Noticia -->
+        <div class="section blue-section" onclick="window.location.href='./Noticias/Noticia.html'">
+          <div class="content2">
+            <img src="./IMG/imgGrooming.jpg" id="motito2">
+            <h1 class="autito">Grooming</h1>
+            <p class="despautito">Algunas noticias. .</p>
+          </div>
+        </div>
+    </div>
+
+    <div class="menu-button" onclick="toggleMenu()">▶</div>
+
+    <!-- Menú Desplegable -->
+    <div class="side-menu" id="sideMenu">
+        <ul>
+          <li><a href="pagina1.html">Página 1</a></li>
+          <li><a href="pagina2.html">Página 2</a></li>
+          <li><a href="pagina3.html">Página 3</a></li>
+        </ul>
+    </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="https://unpkg.com/hover-effect@1.0.5/dist/hover-effect.umd.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/gsap.min.js"></script>
+  <script src="javs.js"></script>
+  <script>
+    AOS.init({
+      duration: 1200,
+    });
+  </script>
+</body>
+</html>
+

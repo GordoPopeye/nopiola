@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Etna Sans Serif', sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    max-width: 100%;
+    max-height: 100%;
+    overflow-x: hidden;
+}
+
+/* Header */
+header {
+    position:fixed;
+    list-style: none;
+    background-color: #fff;
+    padding: 20px 5%;
+    border-bottom: 1px solid #e5e5e5;
+    z-index: 100;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    position: relative;
+    top: 5px;
+    right: 25px;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    
+}
+
+.container a{
+    font-size: 20px;
+}
+
+nav a {
+    position: relative;
+    text-decoration: none;
+    color: #161616;
+    font-size: 14px;
+    left: 5vh;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+/* Main Section */
+main {
+    display: flex;
+    justify-content: center;
+    padding: 60px 5%;
+    background-color: #f3f3f3;
+    max-width: 100%;
+}
+
+.main-content {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.intro{
+    position:relative;
+    left: 60vh;
+    top: 20vh;
+    z-index: 5;
+}
+
+.intro h2 {
+    position: relative;
+    bottom: 5vh;
+    font-size: 30px;
+    color: #3b3b3b;
+}
+
+.intro h1 {
+    font-size: 140px;
+    font-weight: 750;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    margin-right: 0;
+    color: #161616;
+}
+
+.intro p {
+    margin: 10px;
+    font-size: 20px;
+    color: #313131;
+}
+
+.ilustracion{
+    position: relative;
+    left: 40vh;
+    max-width: 50vh;
+    max-height: 30vh;
+    z-index: 1;
+}
+/* cuadraos */
+/* Cards Section */
+.cards {
+    position: relative;
+    display: flex;
+    min-width: 170vh;
+    height: 45vh;
+    gap: 10px;
+    margin-top: 10px;
+    z-index: 4;
+    right: 100vh;
+    top: 100vh;
+}
+
+.card {
+    padding: 15px;
+    border-radius: 1px;
+    color: #fff;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.card-blue {
+    position: relative;
+    left: 20vh;
+    bottom: 5vh;
+    background-color: #68bcf0;
+    color: #000;
+}
+
+
+.card-black {
+    position: relative;
+    background-color: #333;
+    top: 40vh;
+    left: 30vh;
+}
+
+.card-three{
+    position: relative;
+    background-color: #11d695;
+    bottom: 5vh;
+    left: 40vh;
+    color: #000;
+}
+
+.card-three p{
+    padding-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 35px;
+    margin-bottom: 5px;
+    padding: 20px 0px 0px 20px;
+    text-align: left;
+}
+
+.card p {
+    font-size: 30px;
+    text-align: left;
+    margin: 0px 30px 50px 30px;
+    padding: 0px 0px 5px;
+}
+
+.namberwan{
+    position: relative;
+    font-size: 30px;
+    right: 80vh;
+    top: 90vh;
+    z-index: 5;
+    color: #000;
+}
+
+#cuack{
+    position: relative;
+    left: 50vh;
+    top: 1vh;
+    width: 30vh;
+    height: 60vh;
+}
+
+/* Estilos para la sección de relaciones */
+.relationship-section {
+    position: relative;
+    left: 95vh;
+    top: 90vh;
+    padding: 20px;
+    background-color: #f9f9f9; /* Ajusta el fondo según tu tema */
+    min-width: 200vh;
+}
+.text-section{
+    position: relative;
+    font-size: 25px;
+    background-color: #1c1c1c; /* Color del rectángulo negro */
+    color: #ffffff;
+    padding: 200px 100px 200px 100px;
+    max-width: 1000px;
+}
+
+/* Estilo general */
+.footer {
+    position: relative;
+    top: 100vh;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin-top: 50px;
+  }
+  
+  /* Parte superior del footer */
+  .footer-top {
+    position: relative;
+    height: 30vh;
+    background-color: #111;
+    text-align: center;
+    padding: 20px 10px;
+  }
+  
+  .footer-top h3 {
+    position: relative;
+    right: 30vh;
+    top: 10vh;
+    margin: 0;
+    font-size: 35px;
+  }
+  
+  .contact-btn {
+    position: relative;
+    top: 2.5vh;
+    left: 30vh;
+    margin: 15px 10px;
+    height: 8vh;
+    width: 23vh;
+    padding: 10px 20px;
+    background-color: #00cc66;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-btn:hover {
+    background-color: #ffffff;
+    color: black;
+  }
+  
+  /* Parte inferior del footer */
+  .footer-bottom {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .footer-bottom a {
+    text-decoration: none;
+    color: #000;
+    margin: 0 5px;
+  }
+  
+  .footer-bottom a:hover {
+    text-decoration: underline;
+  }
+  
